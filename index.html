@@ -38,12 +38,12 @@
     > -->
       <!-- <i class="fa-solid fa-arrow-up"></i>
     </button> -->
-<audio id="myVideo" autoplay src="../music/DJ.mp3" loop ></audio>
+<audio id="myVideo" autoplay src="../music/D.mp3" loop ></audio>
 <script>
 let vid = document.getElementById("myVideo");
 vid.volume = 0.2;
   </script>
-    <div class="h-screen scroll-smooth">
+    <div class="relative">
       <nav
         class="flex fixed top-0 left-0 right-0 z-50 backdrop-blur-sm bg-black drop-shadow opacity-100 justify-center"
       >
@@ -75,7 +75,7 @@ vid.volume = 0.2;
       </nav>
       <!-- NAV END -->
       <!-- HEADER START -->
-      <div id="particles" class="absolute width-900 h-200 background-size=cover"></div>
+      <div id="particles" class="absolute inset-0 width-900 h-200 background-size=cover"></div>
       <div
         id="home"
         class="min-h-[100vh] text-[#fff] flex flex-col justify-center items-center"
@@ -234,7 +234,7 @@ vid.volume = 0.2;
               rgba(0, 0, 0, 0.5),
               rgba(0, 0, 0, 1)
             ),
-            url(image/kucing_joget.mp4);
+            url(image/kucing_joget.gif);
           background-size: cover;
         "
       >
