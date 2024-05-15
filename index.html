@@ -38,16 +38,21 @@
     > -->
       <!-- <i class="fa-solid fa-arrow-up"></i>
     </button> -->
+
+
+    <!-- MUSIC LOOPING -->
 <audio id="myVideo" autoplay src="../music/DJ.mp3" loop ></audio>
 <script>
 let vid = document.getElementById("myVideo");
 vid.volume = 0.2;
   </script>
+
+<!-- NAV START -->
     <div class="relative">
       <nav
         class="flex fixed top-0 left-0 right-0 z-50 backdrop-blur-sm bg-black drop-shadow opacity-100 justify-center"
       >
-      <img class="h-16 w-24" src="image/C.png">
+      <a href="#home" ><img class="h-16 w-24"src="image/C.png"></a>
         <div
           class="flex top-0 items-center align-bottom pl-1 pr-1 w-full h-16 text-[#fff] justify-center"
         >
@@ -75,7 +80,7 @@ vid.volume = 0.2;
       </nav>
       <!-- NAV END -->
       <!-- HEADER START -->
-      <div id="particles" class="absolute inset-0  width-900 h-200 background-size=cover"></div>
+      <!-- <div id="particles" class="absolute background-size=cover"></div> PARTIKEL ILANG -->
       <div
         id="home"
         class="min-h-[100vh] text-[#fff] flex flex-col justify-center items-center"
@@ -108,12 +113,17 @@ vid.volume = 0.2;
             });
 
             typewriter
-              .pauseFor(1250)
+              .pauseFor(1300)
               .typeString("I am Hpipone.")
-              .pauseFor(850)
+              .pauseFor(950)
               .deleteChars(15)
               .typeString("I'm Student Software and Hardware Developer.")
-              .pauseFor(2000)
+              .pauseFor(2300)
+              .deleteChars(40)
+              .typeString("Still Learning")
+              .pauseFor(1600)
+              .typeString(", Peace out")
+              .pauseFor(1000)
               .start();
           </script>
         </div>
